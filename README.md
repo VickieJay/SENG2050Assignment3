@@ -1,7 +1,7 @@
 # SENG2050Assignment3
 Currently we've decided to use MVC to model and attempt to split the workload of the assignment.
 ## Models  
-###User  
+### User  
 #### Member variables  
 username : String  
 password : String  
@@ -9,7 +9,7 @@ role : Enum (client, staff)
 email : String  
 #### Member methods  
 
-###Issue  
+### Issue  
 #### Member variables  
 uniqueID : int  
 title : String  
@@ -23,7 +23,7 @@ state : Enum
 knowledgeBase : Boolean  
 #### Member methods  
 
-###Comment  
+### Comment  
 #### Member variables  
 uniqueID : int  
 value : String  
