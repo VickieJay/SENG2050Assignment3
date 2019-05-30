@@ -32,3 +32,17 @@ issueID : int
 replyTo : int //default NULL  
 
 #### Member methods
+
+## Views
+All these pages will use a jsp to determine the display and frontend of the page.  
+- Login  
+- Home  
+- Issue List  
+- View Issue  
+- Create Issue  
+- Knowledge Base  
+- View Article  
+
+## Controllers
+Not sure how to split up controllers usefully or if it is even necessary. 
+At the very least each page has a corresponding controller servlet.
